@@ -1,9 +1,9 @@
 import { useId } from "react";
-import { CartIcon, ClearCartIcon, RemoveFromCartIcon } from "./Icons";
+import { CartIcon, ClearCartIcon } from "./Icons";
 import "./Cart.css";
 import { useCart } from "../hooks/useCart";
 
-function CartItem({ thumbnail, price, title, quantity, addToCart}) {
+function CartItem({ thumbnail, price, title, quantity, addToCart }) {
   return (
     <li>
       <img
